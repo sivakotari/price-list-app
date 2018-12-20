@@ -1,0 +1,52 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.app{
+	margin:0 auto;
+	box-sizing: border-box;
+	padding: 15px;
+	width: 60%;
+	color: #565656;
+}
+.price_module_block{
+	padding: 15px 0;
+}
+.price_module_header, .price_module_body{
+	border-bottom: 1px solid #bebebe;
+}
+.price_module_footer{
+	/*border-top: 1px solid #bebebe;*/
+}
+.price_module_container{
+	margin: 40px 0;
+}
+.price_module_title{
+	/*border-bottom: 1px solid #bebebe;*/
+}
+.price_module_inner_container{
+	padding: 0 10px;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	/*border-bottom: 1px solid #bebebe;*/
+}
+.header > span{
+	font-weight: bold;
+	/*font-size: 20px;*/
+}
+.subHeader{
+	font-size: 12px;
+}
+.header_container, .footer_container, .body_container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.input_holder{
+	position: relative;
+}
+.input_holder input{
+	width: 80%;
+	border: 0;
+	outline: none; 
+}
